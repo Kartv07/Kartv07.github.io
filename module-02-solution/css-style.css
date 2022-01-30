@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0%;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -34,22 +34,19 @@ h1{
     right: 0;
 }
 
-#chicken{
+#first{
     margin-left: 50px;
 }
 
-#sushi{
+#third{
    margin-right: 50px;
 }
 
-#Beef{
+#second{
    margin: 0 20px;
 }
 
-
-
-
-.container{
+.content{
    width: 100%;
    margin: 10px 0;
    position: relative;
@@ -63,7 +60,7 @@ h1{
     
 }
 
-#sushi{
+#third{
    float: left;
    
 }
@@ -82,21 +79,19 @@ h1{
     font-size: 14px;
    }
 
-   .container{
+   .content{
        padding: 5px;
 
    }
 
-   #chicken{
+   #first{
     margin-left: 30px;
 
    }
 
-   #sushi{
+   #third{
        margin-right: 20px;
    }
-
-
 }
 
 @media (min-width:768px) and (max-width:991px)    {
@@ -105,16 +100,16 @@ h1{
         
     }
  
-    .container{
+    .content{
         padding: 5px;
     }
  
-    #chicken{
+    #first{
      margin-left: 30px;
  
     }
  
-    #sushi{
+    #third{
        margin: 20px 35px;
         width: 90%;
     }
@@ -131,23 +126,18 @@ h1{
         
     }
 
-    #chicken{
+    #first{
         margin: 5px 20px;
         
     }
-    
 
-    #sushi{
+    #third{
         margin: 5px 20px;
 
     }
     .section-body p{
         font-size: 13px;
-       }
-
-
-
-        
+       }      
 }
 
 @media (max-width:374px){
@@ -157,17 +147,15 @@ h1{
     .section-body p {
         font-size: 14px; 
     }
-    #chicken{
+    #first{
         margin: 5px 20px;
         
     }
-    #sushi{
+    #third{
         margin: 5px 20px;
 
     }
     .section-body p{
         font-size: 12px;
        }
-
-
 }
